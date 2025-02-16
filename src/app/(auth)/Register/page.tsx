@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -43,9 +44,9 @@ const Register = () => {
               fill="currentColor"
             >
               <path
-                fill-rule="evenodd"
+                
                 d="M10 2a6 6 0 00-6 6v2a2 2 0 00-2 2v4a2 2 0 002 2h12a2 2 0 002-2v-4a2 2 0 00-2-2V8a6 6 0 00-6-6zM6 8a4 4 0 118 0v2H6V8z"
-                clip-rule="evenodd"
+                
               />
             </svg>
             <input
@@ -83,21 +84,21 @@ const Register = () => {
 
         <div className="flex justify-center gap-6">
           <button>
-            <img
+            <Image
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/150px-Google_%22G%22_logo.svg.png"
               alt="Google"
               className="w-8"
             />
           </button>
           <button>
-            <img
+            <Image
               src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png"
               alt="Facebook"
               className="w-8"
             />
           </button>
           <button>
-            <img
+            <Image
               src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
               alt="Apple"
               className="w-8"
