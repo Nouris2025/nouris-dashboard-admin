@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 const Register = () => {
   return (
-    <div className="relative flex h-screen w-full flex-col justify-center lg:flex-row">
+    <div className="relative flex h-screen w-full flex-col justify-center">
       <span className="absolute h-60 w-full rounded-b-full bg-primary"></span>
       <form className="z-10">
         <div className="mb-4">

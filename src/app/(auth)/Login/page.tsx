@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 const Login = () => {
   return (
-    <div className="relative flex h-screen w-full flex-col justify-center lg:flex-row">
+    <div className="relative flex h-screen w-full flex-col justify-center">
     <span className="absolute h-60 w-full rounded-b-full bg-primary"></span>
     <form className="z-10">
       <div className="mb-4">
@@ -85,14 +85,14 @@ const Login = () => {
       <div className="flex justify-center gap-6">
         <button>
           <Image
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/150px-Google_%22G%22_logo.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/archive/c/c1/20210618182605%21Google_%22G%22_logo.svg"
             alt="Google"
             className="w-8"
           />
         </button>
         <button>
           <Image
-            src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"
             alt="Facebook"
             className="w-8"
           />
