@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 const Register = () => {
   return (
-    <div className="relative flex h-screen w-full flex-col justify-center">
+    <div className="relative h-screen w-full justify-center">
       <span className="absolute h-60 w-full rounded-b-full bg-primary"></span>
       <form className="z-10">
         <div className="mb-4">
@@ -43,11 +43,7 @@ const Register = () => {
               viewBox="0 0 20 20"
               fill="currentColor"
             >
-              <path
-                
-                d="M10 2a6 6 0 00-6 6v2a2 2 0 00-2 2v4a2 2 0 002 2h12a2 2 0 002-2v-4a2 2 0 00-2-2V8a6 6 0 00-6-6zM6 8a4 4 0 118 0v2H6V8z"
-                
-              />
+              <path d="M10 2a6 6 0 00-6 6v2a2 2 0 00-2 2v4a2 2 0 002 2h12a2 2 0 002-2v-4a2 2 0 00-2-2V8a6 6 0 00-6-6zM6 8a4 4 0 118 0v2H6V8z" />
             </svg>
             <input
               type="password"
@@ -85,14 +81,14 @@ const Register = () => {
         <div className="flex justify-center gap-6">
           <button>
             <Image
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/150px-Google_%22G%22_logo.svg.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/archive/c/c1/20210618182605%21Google_%22G%22_logo.svg"
               alt="Google"
               className="w-8"
             />
           </button>
           <button>
             <Image
-              src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"
               alt="Facebook"
               className="w-8"
             />
@@ -113,7 +109,6 @@ const Register = () => {
           </a>
         </p>
       </form>
-      
     </div>
   );
 };
