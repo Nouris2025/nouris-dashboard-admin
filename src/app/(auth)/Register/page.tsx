@@ -10,7 +10,8 @@ export async function generateMetadata(): Promise<Metadata> {
 const Register = () => {
   return (
     <div className="relative flex h-screen w-full justify-center">
-      <span className="absolute h-60 w-full rounded-b-full bg-primary"></span>
+      <span className="absolute top-0 h-60 w-full rounded-b-full bg-primary"></span>
+      
       <form className="z-10">
         <div className="mb-4">
           <label className="mb-1 block font-medium text-gray-700">Email</label>
@@ -84,6 +85,7 @@ const Register = () => {
               src="https://upload.wikimedia.org/wikipedia/commons/archive/c/c1/20210618182605%21Google_%22G%22_logo.svg"
               alt="Google"
               className="w-8"
+              width={32}
             />
           </button>
           <button>
@@ -91,6 +93,7 @@ const Register = () => {
               src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"
               alt="Facebook"
               className="w-8"
+              width={32}
             />
           </button>
           <button>
@@ -98,6 +101,7 @@ const Register = () => {
               src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
               alt="Apple"
               className="w-8"
+              width={32}
             />
           </button>
         </div>

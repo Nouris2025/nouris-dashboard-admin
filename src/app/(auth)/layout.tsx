@@ -7,7 +7,7 @@ export default function AuthLayout({
   return (
     <html lang="en">
       <body className={`relative`}>
-        <div className="h-screen max-w-sm bg-purple-600">{children}</div>
+        <div className="h-screen bg-background max-lg:max-w-sm lg:w-full">{children}</div>
       </body>
     </html>
   );

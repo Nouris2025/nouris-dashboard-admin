@@ -7,3 +7,120 @@
 .card-shadow-drop-down-effect {
   @apply border border-gray-100 shadow-lg hover:border-gray-200 hover:shadow-inner-custom;
 }
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('../../public/Assets/Fonts/Lufga/LufgaExtraBold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+/* @font-face {
+  font-family: 'Lufga';
+  src: url('/Assets/Font/Lufga/LufgaLight.woff2') format('woff2'),
+       url('/Assets/Font/Lufga/LufgaLight.woff') format('woff'),
+       url('/Assets/Font/Lufga/LufgaLight.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/Assets/Font/Lufga/LufgaLightItalic.woff2') format('woff2'),
+       url('/Assets/Font/Lufga/LufgaLightItalic.woff') format('woff'),
+       url('/Assets/Font/Lufga/LufgaLightItalic.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/Assets/Font/Lufga/LufgaRegular.woff2') format('woff2'),
+       url('/Assets/Font/Lufga/LufgaRegular.woff') format('woff'),
+       url('/Assets/Font/Lufga/LufgaRegular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/Assets/Font/Lufga/LufgaItalic.woff2') format('woff2'),
+       url('/Assets/Font/Lufga/LufgaItalic.woff') format('woff'),
+       url('/Assets/Font/Lufga/LufgaItalic.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/Assets/Font/Lufga/LufgaMedium.woff2') format('woff2'),
+       url('/Assets/Font/Lufga/LufgaMedium.woff') format('woff'),
+       url('/Assets/Font/Lufga/LufgaMedium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/Assets/Font/Lufga/LufgaMediumItalic.woff2') format('woff2'),
+       url('/Assets/Font/Lufga/LufgaMediumItalic.woff') format('woff'),
+       url('/Assets/Font/Lufga/LufgaMediumItalic.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/Assets/Font/Lufga/LufgaBold.woff2') format('woff2'),
+       url('/Assets/Font/Lufga/LufgaBold.woff') format('woff'),
+       url('/Assets/Font/Lufga/LufgaBold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/Assets/Font/Lufga/LufgaBoldItalic.woff2') format('woff2'),
+       url('/Assets/Font/Lufga/LufgaBoldItalic.woff') format('woff'),
+       url('/Assets/Font/Lufga/LufgaBoldItalic.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/Assets/Font/Lufga/LufgaBlack.woff2') format('woff2'),
+       url('/Assets/Font/Lufga/LufgaBlack.woff') format('woff'),
+       url('/Assets/Font/Lufga/LufgaBlack.ttf') format('truetype');
+       font-weight: 900;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/Assets/Font/Lufga/LufgaBlackItalic.woff2') format('woff2'),
+       url('/Assets/Font/Lufga/LufgaBlackItalic.woff') format('woff'),
+       url('/Assets/Font/Lufga/LufgaBlackItalic.ttf') format('truetype');
+       font-weight: 900;
+       font-display: swap;
+       font-style: italic;
+} */
